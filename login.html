@@ -3,36 +3,43 @@
 
 <body class="body">
     <div class="main-div">
-        <img class="img-div" src="https://img.icons8.com/officel/2x/jp2.png" height="50px"width="50px">
-        <div class="login-div">
-            <h1> login</h1>
-        </div>
+        <form>
+            <div class="form-heading-div">
+                Sign in to your account
+            </div>
 
-        <div class="name-div"> user name
+            <div class="name-div">
+                <label for="username">user name<br>
+                    <input id="usernmae" type="text">
+                </label>
+            </div>
             <br>
-            <input type="text">
-        </div>
-        <br>
-        <div class="password-div"> password
+            <div class="password-div">
+                <label for="password">password<br>
+                    <input id="password" type="password">
+                </label>
+            </div>
             <br>
-            <input id="sonu" type="password">
-        </div>
-        <br>
-        <div class="submit">
-            <button type="submit">Submit</button>
-        </div>
-
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
         <style>
-                   
-                .img-div   {
-                    margin-left:400px ;
-                    margin-top:20px ;
-                    box-shadow: 6px 5px 7px rgba(42, 19, 103, 0.25);
-                   }
-            .login-div {
-                text-align: center;
-                font-size: large;
+            .img-div {
+                margin-left: 400px;
+                margin-top: 20px;
+                box-shadow: 6px 5px 7px rgba(42, 19, 103, 0.25);
+            }
 
+            .form-heading-div {
+                text-align: center;
+                font-size: 34px;
+                font-weight: 300;
+                line-height: 1.3em;
+                position: relative;
+                top: 20px;
+                text-align: center;
+                opacity: 0.5;
             }
 
             .main-div {
