@@ -2,92 +2,106 @@
 <html>
 
 <body class="body">
-    <div class="main-div">
-        <form>
+    <div class="body-main-div">
+        <div class="login-body-heading-div">
+            Cloud Native Streaning
+        </div>
+     
+        <div class="login-main-div">
             <div class="form-heading-div">
                 Sign in to your account
             </div>
+            <div class="form-main-div">
+                <section>
+                    <form>
+                        <div>
+                            <div class="username-div">
+                                <label for="username">user name<br>
+                                    <input id="usernmae" type="text">
+                                </label>
+                            </div>
 
-            <div class="name-div">
-                <label for="username">user name<br>
-                    <input id="usernmae" type="text">
-                </label>
+                            <div class="password-div">
+                                <label for="password">password<br>
+                                    <input id="password" type="password">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="submit-div">
+                            <button class="submit-button" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </section>
             </div>
-            <br>
-            <div class="password-div">
-                <label for="password">password<br>
-                    <input id="password" type="password">
-                </label>
+            <div class="forgot-password-div">
+                or <a href="#">forgot password?</a>
             </div>
-            <br>
-            <div class="submit">
-                <button type="submit">Submit</button>
-            </div>
-        </form>
-        <style>
-            .img-div {
-                margin-left: 400px;
-                margin-top: 20px;
-                box-shadow: 6px 5px 7px rgba(42, 19, 103, 0.25);
-            }
+        </div>
+    </div>
 
-            .form-heading-div {
-                text-align: center;
-                font-size: 34px;
-                font-weight: 300;
-                line-height: 1.3em;
-                position: relative;
-                top: 20px;
-                text-align: center;
-                opacity: 0.5;
-            }
+    <style>
+        .login-body-heading-div {
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 35px;
+            box-shadow: 0 10px 20px 0 rgba(46,61,73,.12);
+            opacity: 0.7;
+        }
 
-            .main-div {
-                width: 500px;
-                height: 300px;
-                border-width: 1px;
-                border-style: solid;
-                margin-left: 35%;
-                border-radius: 3%;
-                box-shadow: 11px 10px 9px rgba(42, 19, 103, 0.25);
-            }
+        .form-heading-div {
+            text-align: center;
+            font-size: 34px;
+            position: relative;
+            top: 20px;
+            opacity: 0.5;
+        }
 
-            .name-div {
-                float: left;
-                margin-top: 20px;
-                margin-left: 35px;
-            }
+        .form-main-div {
+            margin-top: 85px;
+        }
 
-            input {
-                border-radius: 10%;
-                border-top-style: none;
-                border-left-style: none;
-                border-right-style: none;
-            }
+        .login-main-div {
+            width: 500px;
+            height: 325px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 3%;
+            box-shadow: 11px 10px 9px rgba(42, 19, 103, 0.25);
+            position: absolute;
+            left: 34%;
+            top: 20%;
+        }
 
-            .password-div {
-                float: left;
-                margin-top: 2opx;
-                margin-left: 35px;
-            }
+        input {
+            border-radius: 10%;
+            border-top-style: none;
+            border-left-style: none;
+            border-right-style: none;
+        }
 
-            .submit {
+        .username-div {
+            float: left;
+            margin-left: 50px;
+        }
 
-                margin-top: 57px;
-                margin-left: 145px;
+        .password-div {
+            margin-left: 270px;
+        }
 
+        .submit-button {
+            height: 30px;
+            width: 150px;
+            margin-left: 155px;
+            margin-top: 50px;
+        }
 
-
-
-
-            }
-        </style>
-
-
-
-
-
-
+        .forgot-password-div {
+            margin-top: 30px;
+            margin-left: 150px;
+            margin-left: 160px;
+        }
+    </style>
 </body>
 
 </html>
